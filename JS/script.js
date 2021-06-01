@@ -24,7 +24,9 @@
 // if (typeof x == 'number') {
 //   console.log('X — число');
 // } else if (typeof x == 'string') {
-//   console.log('Тип x не определён');
+//   console.log('X - строка');
+// } else if (typeof x == 'boolean') {
+//   console.log('X - логический тип');
 // } else {
 //   console.log('Тип x не определён');
 // }
@@ -45,7 +47,6 @@
 //   max = Math.floor(max);
 //   return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
 // }
-
 // console.log(getRandomIntInclusive(min, max));
 
 // !задание 8.5
@@ -104,6 +105,7 @@
 // for (let pair of arr.entries()) {
 //   console.log(`Ключ = ${pair[0]}, значение = ${pair[1]}`);
 // }
+
 // !задание 8.9
 // let arr = [0, 5, 10, 15, 20, 25, null, 'Gfif', 30, 35, 38.5, 40, 45, 50];
 // arrEven = 0;
@@ -120,6 +122,7 @@
 //         arrOdd++;
 //       }
 //     }
+//
 //   }
 //   console.log('Количество четных: ' + arrEven);
 //   console.log('Количество нечетных: ' + arrOdd);
